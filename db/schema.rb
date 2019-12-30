@@ -12,8 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2019_12_21_225705) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "favorites", force: :cascade do |t|
-    t.integer "number_id", null: false
+    t.bigint "number_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["number_id"], name: "index_favorites_on_number_id"

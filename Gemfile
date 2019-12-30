@@ -7,13 +7,9 @@ ruby '2.6.1'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Use sqlite3 as the database for Active Record
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
-group :development do
-  gem 'sqlite3', '~> 1.4'
-end
+  # gem 'sqlite3', '~> 1.4'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
