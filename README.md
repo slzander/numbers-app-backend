@@ -34,7 +34,7 @@ JavaScript
 https://p5js.org/  
 https://ml5js.org/ - Feature Extractor, MobileNet model
 
-**Link to Frontend:**
+**Link to Frontend Repo:**
 
 https://github.com/slzander/numbers-app-frontend
 
